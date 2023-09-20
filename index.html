@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/326fc979ba.js" crossorigin="anonymous"></script>
+    <title>Weather App</title>
+</head>
+<body onload="loader()">
+
+    <section id="page">
+        <!-- <img src="wave.png" alt="wave"> -->
+        <svg xmlns="http://www.w3.org/2000/svg" width="1426" height="1276" viewBox="0 0 1426 1276" fill="none">
+            <g filter="url(#filter0_f_103_4)">
+              <path d="M1373 250C1373 1162.5 592.5 1271 4 1271H1420.5C1420.5 1271 1373 -662.5 1373 250Z" fill="#373737"/>
+              <path d="M1373 250C1373 1162.5 592.5 1271 4 1271H1420.5C1420.5 1271 1373 -662.5 1373 250Z" stroke="#373737"/>
+            </g>
+            <defs>
+              <filter id="filter0_f_103_4" x="0" y="0.808975" width="1425.01" height="1274.69" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+                <!-- <feGaussianBlur stdDeviation="2" result="effect1_foregroundBlur_103_4"/> -->
+              </filter>
+            </defs>
+          </svg>
+        <div id="uppercir">
+            <div id="weicon">
+                <img id = "behenkelode" src="clouds.png" alt="weather">
+            </div>
+        </div>
+        <div id="measures">
+            <div id="wind">
+                <div class="im">
+                    <img src="wind.png" alt="wind">
+                </div>
+                <div class="text" id="windval">23 m/s</div>
+            </div>
+            <div id="humidity">
+                <div class="im">
+                    <img src="humidity.png" alt="wind">
+                </div>
+                <div class="text" id="humidval">80%</div>
+            </div>
+            <div id="pressure">
+                <div class="im">
+                    <img src="barometer-.png" alt="wind">
+                </div>
+                <div class="text" id="presval">100 Pa</div>
+            </div>
+        </div>
+        <div id="decor">
+            <!-- <div class="stick" id="left"></div>
+            <div class="stick" id="mid"></div>
+            <div class="stick" id="right"></div> -->
+            <div id="date">21 August</div>
+            <div id="time">02:01</div>
+        </div>
+        <div id="palette">
+            <div id="temp">17°C</div>
+            <div id="country">
+                GB
+            </div>
+            <div id="city">Harrogate</div>
+            <div id="remarks">
+                scattered clouds
+            </div>
+        </div>
+        <div  class="search-box" id="search-box">
+            <input class="search-txt" id = 'search-txt' type="text" name="" placeholder="Search a City">
+            <a class="search-btn" id= "search-btn" href="#">
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </a>
+        </div>
+        <a href="index.php">
+            <div id="stack" class="normal grow">
+                <img src="stack-of-square-papers.png" alt="stack">
+            </div>
+        </a>
+
+
+    </section>
+
+    
+
+
+    <script src="script.js">
+
+    </script>
+
+</body>
+</html>
